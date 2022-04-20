@@ -38,7 +38,7 @@ class SceneLoader{
         if(this.gameState=="menu"){
 
         }else if(this.gameState=="gameplay"){
-            this.gameState.draw(pCtx);
+            this.sceneGame.draw(pCtx);
         }else if(this.gameState=="gameover"){
             
         }

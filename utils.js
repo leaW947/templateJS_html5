@@ -1,5 +1,5 @@
 function rnd(pMin,pMax){
-    return (Math.random()*(pMax-pMin))+pMax
+    return (Math.random()*(pMax-pMin))+pMin
 }
 
 function getAngle(pX1,pY1,pX2,pY2){
