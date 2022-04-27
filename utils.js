@@ -2,7 +2,7 @@ function rnd(pMin,pMax){
     return (Math.random()*(pMax-pMin))+pMin
 }
 
-function angle(pX1,pY1,pX2,pY2){
+function getAngle(pX1,pY1,pX2,pY2){
     return Math.atan2((pY2-pY1),(pX2-pX1));
 }
 
